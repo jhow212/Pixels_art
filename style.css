@@ -1,0 +1,50 @@
+* {
+text-align: center; 
+}
+.color {
+  width: 30px;
+  height: 30px;
+}
+#color-palette {
+  max-width: 800px;
+  margin: auto;
+}
+.blackSquared {
+  color: black;
+  padding: 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: black;
+  border: solid black 1px;
+  margin-left: 20px;
+}
+
+.redSquared {
+  color: red;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: red;
+  border: solid black 1px;
+  margin-left: 20px;
+}
+
+.purpleSquared {
+  color: purple;
+  padding: 30px;
+  display: inline-block;
+  margin-bottom: 50px;
+  background-color: purple;
+  border: solid black 1px;
+  margin-left: 20px;
+}
+
+.blueSquared {
+  color: blue;
+  padding: 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: blue;
+  border: solid black 1px;
+  margin-left: 20px;
+}
