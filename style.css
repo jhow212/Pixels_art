@@ -16,7 +16,7 @@ text-align: center;
   margin-bottom: 30px;
   background-color: black;
   border: solid black 1px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .redSquared {
@@ -26,7 +26,7 @@ text-align: center;
   padding: 30px;
   background-color: red;
   border: solid black 1px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .purpleSquared {
@@ -36,7 +36,7 @@ text-align: center;
   margin-bottom: 50px;
   background-color: purple;
   border: solid black 1px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .blueSquared {
@@ -46,5 +46,96 @@ text-align: center;
   margin-bottom: 30px;
   background-color: blue;
   border: solid black 1px;
-  margin-left: 20px;
+  margin-left: 5px;
+}
+
+.pixel {
+  width: 60px;
+  height: 70px;
+}
+
+#pixel-board {
+ max-width: 370px;
+  margin: auto;
+}
+
+.blackSquareColum {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.redSquareColum {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.purpleSquareColum {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.blueSquareColum {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.whiteSquareColum {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.blackSquareline {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+  padding: 5px;
+}
+
+.redSquareline {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.purpleSquareline {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.blueSquareline {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
+}
+
+.whiteSquareline {
+  display: inline-block;
+  color: white;
+  border: solid black 1px;
+  background-color: white;
+  padding: 5px;
 }
