@@ -56,4 +56,13 @@ let primeiraCor = document.querySelector('.blackSquared');
 primeiraCor.classList.add('selected');
 
 let paletaDeCores = document.querySelectorAll('.color');
+for (let i = 0; i < paletaDeCores.length; i += 1) {
+  paletaDeCores[i].addEventListener('click', clicar)
+}
 
+
+function clicar (event) {
+  let achando = document.querySelector('.selected')
+  achando.classList.remove('selected')
+  event.target.classList.add('selected')
+}
