@@ -5,10 +5,10 @@ paleta.id = 'color-palette';
 let cores = ['cor1', 'cor2', 'cor3', 'cor4']
 let resultado = [0]
 for (let i = 0; i < cores.length; i += 1) {
-    resultado = cores[i]
-    let liS = document.createElement('li')
-    liS.innerText = resultado;
-    paleta.appendChild(liS);
+  resultado = cores[i]
+  let liS = document.createElement('li')
+  liS.innerText = resultado;
+  paleta.appendChild(liS);
 }
 let cor1 = document.getElementsByTagName('li')[0].className = 'color blackSquared';
 let cor2 = document.getElementsByTagName('li')[1].className = 'color redSquared';
@@ -21,10 +21,10 @@ board.id = 'pixel-board';
 let pixelsColum = ['pixel1colum', 'pixel2colum', 'pixel3colum', 'pixel4colum', 'pixel5colum', 'pixel6line', 'pixel7line', 'pixel8line', 'pixel9line', 'pixel10line', 'pixel11line', 'pixel12line', 'pixel13line', 'pixel14line', 'pixel15line', 'pixel16line', 'pixel17line', 'pixel18line', 'pixel19line', 'pixel20line', 'pixel21line', 'pixel22line', 'pixel23line', 'pixel24line', 'pixel25line']
 let pixels = [0];
 for (let i = 0; i < pixelsColum.length; i += 1) {
-    pixels = pixelsColum[i];
-    let colorir = document.createElement('div');
-    colorir.innerText = pixels;
-    board.appendChild(colorir)
+  pixels = pixelsColum[i];
+  let colorir = document.createElement('div');
+  colorir.innerText = pixels;
+  board.appendChild(colorir)
 }
 let pixel1colum = document.getElementsByTagName('div')[0].className = 'pixel blackSquareColum';
 let pixel2colum = document.getElementsByTagName('div')[1].className = 'pixel redSquareColum';
@@ -53,4 +53,7 @@ let pixel24colum = document.getElementsByTagName('div')[23].className = 'pixel b
 let pixel25colum = document.getElementsByTagName('div')[24].className = 'pixel whiteSquareColum';
 
 let primeiraCor = document.querySelector('.blackSquared');
-primeiraCor.classList.add('selected')
+primeiraCor.classList.add('selected');
+
+let paletaDeCores = document.querySelectorAll('.color');
+
