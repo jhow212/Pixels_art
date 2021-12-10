@@ -31,23 +31,26 @@ let pixel2colum = document.getElementsByTagName('div')[1].className = 'pixel red
 let pixel3colum = document.getElementsByTagName('div')[2].className = 'pixel purpleSquareColum';
 let pixel4colum = document.getElementsByTagName('div')[3].className = 'pixel blueSquareColum';
 let pixel5colum = document.getElementsByTagName('div')[4].className = 'pixel whiteSquareColum';
-let pixel6line = document.getElementsByTagName('div')[5].className = 'pixel blackSquareline';
-let pixel7line = document.getElementsByTagName('div')[6].className = 'pixel redSquareline';
-let pixel8line = document.getElementsByTagName('div')[7].className = 'pixel purpleSquareline';
-let pixel9line = document.getElementsByTagName('div')[8].className = 'pixel blueSquareline';
-let pixel10line = document.getElementsByTagName('div')[9].className = 'pixel whiteSquareline';
+let pixel6colum = document.getElementsByTagName('div')[5].className = 'pixel blackSquareColum';
+let pixel7Colum = document.getElementsByTagName('div')[6].className = 'pixel redSquareColum';
+let pixel8Colum = document.getElementsByTagName('div')[7].className = 'pixel purpleSquareColum';
+let pixel9Colum = document.getElementsByTagName('div')[8].className = 'pixel blueSquareColum';
+let pixel10Colum = document.getElementsByTagName('div')[9].className = 'pixel whiteSquareColum';
 let pixel11colum = document.getElementsByTagName('div')[10].className = 'pixel blackSquareColum';
 let pixel12colum = document.getElementsByTagName('div')[11].className = 'pixel redSquareColum';
 let pixel13colum = document.getElementsByTagName('div')[12].className = 'pixel purpleSquareColum';
 let pixel14colum = document.getElementsByTagName('div')[13].className = 'pixel blueSquareColum';
 let pixel15colum = document.getElementsByTagName('div')[14].className = 'pixel whiteSquareColum';
-let pixel16line = document.getElementsByTagName('div')[15].className = 'pixel blackSquareline';
-let pixel17line = document.getElementsByTagName('div')[16].className = 'pixel redSquareline';
-let pixel18line = document.getElementsByTagName('div')[17].className = 'pixel purpleSquareline';
-let pixel19line = document.getElementsByTagName('div')[18].className = 'pixel blueSquareline';
-let pixel20line = document.getElementsByTagName('div')[19].className = 'pixel whiteSquareline';
+let pixel16Colum = document.getElementsByTagName('div')[15].className = 'pixel blackSquareColum';
+let pixel17Colum = document.getElementsByTagName('div')[16].className = 'pixel redSquareColum';
+let pixel18Colum = document.getElementsByTagName('div')[17].className = 'pixel purpleSquareColum';
+let pixel19Colum = document.getElementsByTagName('div')[18].className = 'pixel blueSquareColum';
+let pixel20Colum = document.getElementsByTagName('div')[19].className = 'pixel whiteSquareColum';
 let pixel21colum = document.getElementsByTagName('div')[20].className = 'pixel blackSquareColum';
 let pixel22colum = document.getElementsByTagName('div')[21].className = 'pixel redSquareColum';
 let pixel23colum = document.getElementsByTagName('div')[22].className = 'pixel purpleSquareColum';
 let pixel24colum = document.getElementsByTagName('div')[23].className = 'pixel blueSquareColum';
 let pixel25colum = document.getElementsByTagName('div')[24].className = 'pixel whiteSquareColum';
+
+let primeiraCor = document.querySelector('.blackSquared');
+primeiraCor.classList.add('selected')
