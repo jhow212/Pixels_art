@@ -7,7 +7,7 @@ let resultado = [0]
 for (let i = 0; i < cores.length; i += 1) {
   resultado = cores[i]
   let liS = document.createElement('li')
-  liS.innerText = resultado;
+  // liS.innerText = resultado;
   paleta.appendChild(liS);
 }
 let cor1 = document.getElementsByTagName('li')[0].className = 'color blackSquared';
@@ -23,7 +23,7 @@ let pixels = [0];
 for (let i = 0; i < pixelsColum.length; i += 1) {
   pixels = pixelsColum[i];
   let colorir = document.createElement('div');
-  colorir.innerText = pixels;
+  // colorir.innerText = pixels;
   board.appendChild(colorir)
 }
 let pixel1colum = document.getElementsByTagName('div')[0].className = 'pixel blackSquareColum';
@@ -65,4 +65,21 @@ function clicar (event) {
   let achando = document.querySelector('.selected')
   achando.classList.remove('selected')
   event.target.classList.add('selected')
+}
+
+let mudarCor = document.querySelectorAll('.pixel')
+for (let i = 0; i < mudarCor.length; i += 1){
+  mudarCor[i].addEventListener('click', corSelecionada)
+}
+
+function corSelecionada (event) {
+  if (document.querySelector('.blackSquared') === document.querySelector('.selected')) {
+    event.target.style.backgroundColor = 'black' 
+  } else if (document.querySelector('.redSquared') === document.querySelector('.selected')) {
+    event.target.style.backgroundColor = 'red'
+  } else if (document.querySelector('.purpleSquared') === document.querySelector('.selected')) {
+    event.target.style.backgroundColor = 'purple'
+  } else if (document.querySelector('.blueSquared') === document.querySelector('.selected')) {
+    event.target.style.backgroundColor = 'blue'
+  }
 }
